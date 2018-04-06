@@ -152,8 +152,8 @@ public class U2A7_IdealWeight extends javax.swing.JFrame {
         String.valueOf(height);
         Double.toString(height);
         Double.toString(theWeight);
-        height = enterHeight.getText();
-        theWeight = ;
+        height = Double.parseDouble(enterHeight.getText());
+        //theWeight = ;
         Boolean.getBoolean(measure);
 //        double mHeight;
 //        int iHeight;
